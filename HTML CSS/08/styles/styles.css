@@ -1,0 +1,30 @@
+body{
+	background-color: gray;
+	color: white;
+}
+
+div{
+	border: white solid 10px;
+	max-width: 60%;
+	margin: 20px auto;
+	padding: 50px;
+	background-position: center;
+	background-size: cover;
+}
+
+.premier > h1 {
+	font-family: 'Secular One', sans-serif;
+}
+
+.deuxieme{
+	background-image: url('../images/witheaven.jpg');
+	background-attachment: fixed;
+}
+
+.premier{
+	background-image: url('../images/heart.jpg');
+}
+
+.deuxieme > h1 {
+	font-family: 'Alfa Slab One', cursive;
+}

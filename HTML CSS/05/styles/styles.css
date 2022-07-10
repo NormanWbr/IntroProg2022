@@ -1,0 +1,61 @@
+body{
+
+	/*font-family: "Symbol", "Arial", sans-serif;*/
+	font-family: "Arial", sans-serif;
+	/*background: url(https://www.l214.com/wp-content/uploads/2021/06/vache-noir-blanc-1024x535.jpg);*/
+
+}
+
+h1{
+
+	text-transform: uppercase;
+	
+}
+
+.note{
+
+	color: gray;
+	font-size: 12px;
+	font-style: italic;
+
+}
+
+.note::before{
+
+	content: "Note : ";
+
+}
+
+a{
+
+	color: blue;
+	text-decoration: none;
+
+}
+
+a:hover{
+
+	color: purple;
+	text-decoration: none;
+
+}
+
+.page{
+
+	color: white;
+	background: blue;
+
+}
+
+.page:hover{
+
+	color: white;
+	background: purple;
+
+}
+
+ul{
+
+	list-style-type: square;
+
+}

@@ -1,0 +1,37 @@
+h1{
+	font-family: "Arial", sans-serif;
+	border: black solid 4px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+	margin: 50px auto 0px;
+	max-width: 1400px;
+}
+
+.categorie{
+	border: green solid 6px;
+	background: lightgreen;
+	max-width: 1000px;
+	margin: 50px auto;
+	padding-bottom: 20px;
+}
+
+h2{
+	border: green solid 4px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0px;
+	margin: 50px auto 0px;
+	max-width: 910px;
+}
+
+.article{
+	background: white;
+	margin: 25px auto;
+	padding: 10px;
+	max-width: 900px;
+}
+
+h3, p{
+	margin: 10px;
+}

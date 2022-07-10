@@ -1,0 +1,15 @@
+body{
+	background-color: green;
+}
+header{
+	background-image: url('../images/header.jpg');
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.menu{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}

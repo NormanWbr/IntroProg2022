@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- NORMALIZE -->
+	<link rel="stylesheet" href="styles/normalize.css">
+	<!-- MONSTYLES -->
+	<link rel="stylesheet" href="styles/styles.css">
+	<!-- <link rel="stylesheet" href="styles/form.css"> -->
+	<!-- GOOGLE FONTS -->
+	<link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Lobster'> 
+	<title>Inscription</title>
+</head>
+<body>
+	<form method="post" action="oh.html" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Coordonnées</legend>
+			<p>
+				<label for="nom">Nom*</label>
+				<input type="text" name="nom" id="nom" required="required">
+			</p>
+			<p>
+				<label for="prenom">Prénom*</label>
+				<input type="text" name="prenom" id="prenom" required="required">
+			</p>
+			<p>
+				<label for="email">E-mail</label>
+				<input type="email" name="email" id="email">
+			</p>
+			<p>
+				<label for="tel">Téléphone</label>
+				<input type="tel" name="telephone" id="tel" maxlength="10">
+			</p>
+			<p>
+				<label for="date">Date</label>
+				<input type="date" min="1900-01-01" max="2004-12-31" name="date" id="date">
+			</p>
+			<p>
+				<input type="radio" name="genre" value="homme" id="m">
+				<label for="m">Homme</label>
+				<input type="radio" name="genre" value="femme" id="f">
+				<label for="f">Femme</label>
+				<input type="radio" name="genre" value="autre" id="a">
+				<label for="a">Autre</label>
+			</p>
+			<p>
+				<label for="fichier">Télécharger une photo</label>
+				<input type="file" name="fichier" multiple accept="image/jpeg,image/png" id="fichier">
+			</p>
+		</fieldset>
+		<p class="etat">Etat d'avancement</p>
+		<progress value="33" max="100"></progress>
+		<fieldset>
+			<legend>Connexion</legend>
+			<p>
+				<label for="login">Login*</label>
+				<input type="text" name="login" id="login" required="required">
+			</p>
+			<p>
+				<label for="pswd">Mot de passe*</label>
+				<input type="password" id="pswd" name="pswd" required="required">
+			</p>
+			<p>
+				<label for="pswdrep">Répéter le mot de passe*</label>
+				<input type="password" id="pswdrep" name="pswdrep" required="required">
+			</p>
+		</fieldset>
+		<p class="etat">Etat d'avancement</p>
+		<progress value="66" max="100"></progress>
+		<fieldset>
+			<legend>Société</legend>
+			<p>
+				<label for="societe">Nom de la société</label>
+				<input type="text" name="societe" id="societe">
+			</p>
+			<p>
+				<label for="url">URL du site web</label>
+				<input type="url" name="url" id="url" value="">
+			</p>
+			<p>
+				<label for="nbr">Année d'existence</label>
+				<input type="number" name="nbr" id="nbr" step="1" min="0" max="99999">
+			</p>
+			<p>
+				<label>Ville</label>
+				<input type="text" list="ville">
+				<datalist id="ville">
+					<option value="Verviers">Verviers</option>
+					<option value="Liège">Liège</option>
+					<option value="Seraing">Seraing</option>
+					<option value="Ougree">Ougree</option>
+					<option value="Mons">Mons</option>
+					<option value="Bruxelles">Bruxelles</option>
+				</datalist>
+			</p>
+			<p>
+				<label for="secteur">Secteur d'activité</label>
+				<select id="secteur" name="secteur">
+					<option value="vide"> </option>
+					<optgroup label="Informatique">
+						<option value="reseau">Réseaux</option>
+						<option value="devweb">Développeur web</option>
+					</optgroup>
+					<optgroup label="Restauration">
+						<option value="fastfood">Fast Food</option>
+						<option value="gastro">Restaurant gastronomique</option>
+					</optgroup>
+					<optgroup label="Industrie">
+						<option value="automobile">Automobile</option>
+						<option value="metallurgie">Métallurgie</option>
+					</optgroup>
+				</select>
+			</p>
+			<p>
+				<label for="text">Description de la société</label>
+			</p>
+			<textarea id="text"></textarea>
+		</fieldset>
+	<p class="etat">Etat d'avancement</p>
+	<progress value="100" max="100"></progress>
+	<div>
+		<input class="bouton" type="reset" value="Annuler">
+		<input class="bouton" type="submit" value="Envoyer">
+	</div>
+</form>
+</body>
+</html>

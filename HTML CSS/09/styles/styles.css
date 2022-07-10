@@ -1,0 +1,13 @@
+.bouton{
+	background-color: green;
+	color: white;
+	border: none;
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: "Arial", sans-serif;
+}
+
+.bouton:hover{
+	background-color: red;
+}

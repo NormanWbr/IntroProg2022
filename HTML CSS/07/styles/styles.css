@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+figure{
+    margin: 10px auto;
+    max-width: 50%;
+    padding: 10px;
+    background-color: white;
+}
+figure > img{
+    margin: auto;
+    width: 100%;    
+}
+figcaption{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.bouton{
+    background-color: white;
+    width: 8%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.bouton > img{
+    margin: auto;
+    width: 90%;    
+}

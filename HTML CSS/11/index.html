@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- NORMALIZE -->
+	<link rel="stylesheet" href="styles/normalize.css">
+	<!-- MONSTYLES -->
+	<link rel="stylesheet" href="styles/styles.css">
+	<!-- FONT AWESOME -->
+	<script src="https://kit.fontawesome.com/78e48405bf.js" crossorigin="anonymous"></script>
+	<!-- GOOGLE FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet"> 
+	<title>Proforma ASBL</title>
+</head>
+<body>
+	<header>
+		<h1>Asbl Proforma</h1>
+	</header>
+	<div class="menu">
+		<p>
+			<a href="#pres">Présentation</a>
+		</p>
+		<p>
+			<a href="#form">Nos formations</a>
+		</p>
+		<p>
+			<a href="#doc">Documents</a>
+		</p>
+		<p>
+			<a href="#cont">Nous contacter</a>
+		</p>
+	</div>
+	<a name="pres"></a>
+	<div class="presentation">
+		<img class="right " src="images/qsn-right.jpg">
+		<img class="left" src="images/qsn-left.png">
+		<h2>Qui sommes-nous ?</h2>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil fuga officia, reiciendis ab. Tempora earum dolore, vel quidem temporibus ea cumque voluptatem, laboriosam, numquam harum perferendis distinctio soluta ut?</p>
+		<a class="lien" href="mailto:contact@proforma.be">Contact</a>
+
+	</div>
+	<a name="form"></a>
+	<div class="formation">
+		<h2><i class="fa-solid fa-graduation-cap"></i>Nos formations</h2>
+		<figure>
+			<img src="images/formations.jpg" alt="Des personnes en formation">
+			<figcaption>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, voluptatem?
+			</figcaption>
+		</figure>
+
+	</div>
+	<a name="doc"></a>
+	<div class="download">
+		<h2>Liens & document à télécharger</h2>
+		<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Iste harum exercitationem minima suscipit debitis veritatis expedita,.</p>
+		<a class="lien" href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+		<a class="lien" href="https://twitter.com"><i class="fa-brands fa-twitter"></i> Twitter</a>
+		<a class="lien" href="mailto:contact@proforma.be"><i class="fa-solid fa-envelope"></i> Contact</a>
+		<a class="document" href="files/document1.pdf"><i class="fa-solid fa-file"></i> Document 1</a>
+		<a class="document" href="files/document2.pdf"><i class="fa-solid fa-file"></i> Document 2</a>
+	</div>
+	<a name="cont"></a>
+	<div class="contact">
+		<h2>Nous contacter</h2>
+		<form method="post" action="ok.html">
+			<p>
+				<label for="nom">Votre nom</label>
+			</p>
+			<input type="text" name="nom" id="nom" required="required">
+			<p>
+				<label for="prenom">Votre prénom</label>
+			</p>
+			<input type="text" name="prenom" id="prenom" required="required">
+			<p>
+				<label for="email">Votre e-mail</label>
+			</p>
+			<input type="email" name="email" id="email">
+			<p>
+				<label for="msg">Votre message</label>
+			</p>
+			<textarea id="msg"></textarea>
+			<p>
+				<input class="envoyer" type="submit" name="action" value="Envoyer">
+			</p>
+		</form>
+	</div>
+	<footer>
+		<p>© 2022 ASBL Proforma</p>
+	</footer>
+</body>
+</html>
